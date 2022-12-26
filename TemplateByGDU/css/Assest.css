@@ -1,0 +1,101 @@
+/* topbar */
+.div_topbar{
+    text-align: center; 
+    font-family: 'Nabla', cursive;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    height: 170px;
+    background: rgb(176,30,219);
+    background: linear-gradient(90deg, rgba(176,30,219,0.9867297260701156) 0%, rgba(69,111,215,1) 54%, rgba(0,255,217,1) 100%);
+    color: aqua;
+}
+
+.div_topbar h3{
+    margin: 0;
+    padding: 30px;
+}
+/* header */
+div.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background: rgb(176,30,219);
+    background: linear-gradient(90deg, rgba(176,30,219,0.9867297260701156) 0%, rgba(69,111,215,1) 54%, rgba(0,255,217,1) 100%);
+}
+
+div.navbar div{
+    padding: 20px;
+    border-right: 1px solid white;
+    background-image: linear-gradient(
+        to right,
+        #beff89,
+        #f4ff93 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 20px 10px;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+}
+
+div.navbar div::before{
+    content: '';
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+div.navbar div:hover{
+    background-position: 0;
+}
+
+div.navbar div:hover::before{
+    width: 100%;
+}
+
+
+div.navbar div a{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+}
+div.navbar div.none_border_color{
+        border: none;
+}
+
+/* ABOUT */
+.div_ABOUT{
+    padding-top: 160px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Audiowide', cursive;
+    height: 500px;
+    background: rgb(176,30,219);
+    background: linear-gradient(90deg, rgba(176,30,219,0.9867297260701156) 0%, rgba(69,111,215,1) 54%, rgba(0,255,217,1) 100%);
+}
+.content_left h1{
+    margin: 0;
+}
+
+.content_left{
+    font-size: 40px;
+    color: #ecd1ff;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #71ecec 10%, #2a0755 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.content_right{
+    border-left: #ffffff 1px solid;
+}
